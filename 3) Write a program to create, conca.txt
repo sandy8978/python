@@ -1,0 +1,26 @@
+3) Write a program to create, concatenate and print a string and accessing sub-string from a given string.
+
+
+# Create a string
+string1 = "Hello, "
+string2 = "World!"
+
+# Concatenate strings
+concatenated_string = string1 + string2
+
+# Print the concatenated string
+print("Concatenated String:", concatenated_string)
+
+# Accessing substrings
+# Access a specific character by index
+index = 7
+character_at_index = concatenated_string[index]
+print(f"Character at index {index}: {character_at_index}")
+
+# Access a substring using slicing
+substring = concatenated_string[0:5]
+print(f"Substring from index 0 to 4: {substring}")
+
+# Access the substring from the 7th index to the end
+substring_from_index = concatenated_string[7:]
+print(f"Substring from index 7 to the end: {substring_from_index}")
